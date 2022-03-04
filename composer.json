@@ -1,0 +1,18 @@
+{
+    "name": "gioco-plus/xgd-contract",
+    "description": "xgd Interface",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ellie Su",
+            "email": "ellie.su@goldenf.co"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GiocoPlus\\XGD\\": "src/"
+        }
+    },
+    "require": {}
+}

@@ -30,12 +30,12 @@ interface XGDServiceInterface {
     /**
      * 抓取遊戲紀錄
      * @param string $op_code
-     * @param integer $row_version
      * @param string $cache_key
      * @param string $vendor_code
+     * @param integer $row_version
      * @return mixed
      */
-    function betLogGrabber(string $op_code, int $row_version, string $cache_key, string $vendor_code);
+    function betLogGrabber(string $op_code, string $cache_key, string $vendor_code, int $row_version = 0);
 
     /**
      * 全營商 抓取遊戲紀錄
